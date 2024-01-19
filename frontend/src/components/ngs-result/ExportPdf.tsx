@@ -165,7 +165,8 @@ export const MyDocument: FunctionComponent<ExportPdfProps> = (prop) => (
 					<Text style={{ width: 175, fontFamily: 'KAIU' }}>檢體狀態 : {prop.data.specimenStatus}</Text>
 				</View>
 				<View style={styles.containInfoView}>
-					<Text style={{ width: 350, fontFamily: 'KAIU' }}>檢測項目 : Mutation screening for myeloid malignancies</Text>
+					{/* <Text style={{ width: 350, fontFamily: 'KAIU' }}>檢測項目 : Mutation screening for myeloid malignancies</Text> */}
+					<Text style={{ width: 350, fontFamily: 'KAIU' }}>檢測項目 : 骨髓腫瘤之多基因突變篩檢</Text>
 				</View>
 				
 				<Text style={{fontFamily: 'Times-Bold'}}>{'\n'}I. Variant list:</Text>

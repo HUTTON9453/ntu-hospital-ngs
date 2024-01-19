@@ -710,7 +710,8 @@ export const NgsResult: FunctionComponent = (prop) => {
 	};
 
 	const handleSampleChange =  (e) => {
-		const value = e.target.value;
+		// const value = e.target.value;
+		const value = e.target.value.trim();
 		const name = e.target.name;
 		selectedSample[name] = value;
 		if(segmentResults[selectedSample.sampleId]!==undefined)
